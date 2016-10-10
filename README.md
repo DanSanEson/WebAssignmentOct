@@ -1,10 +1,10 @@
-## WebAssignmentOct
+# WebAssignmentOct
 
-#Syftet med hemsidan
+##Syftet med hemsidan
 Syftet med denna hemsida är att skapa ett sätt för framtida arbetsgivare att enkelt få reda på information om mig.
 
 
-#Frågor en praktikantanställare skulle kunna vilja söka svar på
+##Frågor en praktikantanställare skulle kunna vilja söka svar på
 
 Kan personen använda GitHub?
   Kan personen commita på ett bra sätt?
