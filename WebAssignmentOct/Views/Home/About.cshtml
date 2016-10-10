@@ -2,9 +2,22 @@
     Layout = "../Shared/_Layout.cshtml";
 }
 
+@model System.Collections.Generic.List<WebAssignmentOct.Models.Experience>
+
 <div class="jumbotron">
     <div class="container" style="text-align: center;">
         <h1>About</h1>
         <p>I am a 19 year old student learning programming.</p>
+        <p>My relevant completed courses:</p>
+
+        <div style="width: 295px; margin: auto; text-align: left;">
+            <ul style="list-style: none; padding-left: 0;">
+                @foreach (var item in Model)
+                {
+                    <li>@item.education | @item.period</li>
+                }
+            </ul>
+        </div>
     </div>
+    
 </div>
