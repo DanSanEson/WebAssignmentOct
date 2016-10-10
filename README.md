@@ -13,5 +13,5 @@ Hur arbetar personen i grupp?
 
 Kan personen hålla deadlines?
 
-
+Vilken relevant utbildning har personen sedan tidigare?
 
