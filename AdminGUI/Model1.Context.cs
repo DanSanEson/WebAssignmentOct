@@ -25,6 +25,7 @@ namespace AdminGUI
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Education> Educations { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<MSreplication_options> MSreplication_options { get; set; }
         public virtual DbSet<spt_fallback_db> spt_fallback_db { get; set; }
